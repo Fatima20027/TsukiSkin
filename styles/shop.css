@@ -1,0 +1,29 @@
+.shop-page > h2,
+.shop-page > p{
+  position: absolute;
+  display: flex;
+  top: 40%; left: 10%;  
+  color: white; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-size: 45px;
+  line-height: 50px;
+  font-family: "Montserrat", sans-serif;
+  
+  
+}
+
+.shop-page p {
+  top: 55%;
+  font-size: 30px;
+  left: 22%;
+}
+
+
+
+
+.shopping {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}

@@ -1,0 +1,82 @@
+.sellers > .under {
+  display: flex;
+  font-size: 35px;
+  margin-top: 10%;
+}
+
+
+
+/*blog*/
+
+.blog {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.sub-blog {
+  display: flex;
+  justify-content: center;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 40px;
+}
+
+.img-blog {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.img-blog1 img, .img-blog2 img {
+  width: 100%;
+  display: block;
+}
+
+.img-wrapper {
+  position: relative;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 200% 0%;
+  }
+  100% {
+    background-position: -200% 0%;
+  }
+}
+
+.img-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 20%);
+  background-size: 200%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.img-wrapper:hover::before {
+  opacity: 1;
+  animation: glowing 1s ease forwards;
+}
+
+.blog h5 a{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: hsl(156, 100%, 1%);
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 600;
+
+}
+
+.blog h5 a:hover {
+  color: hsl(158, 36%, 37%);
+  text-decoration: underline;
+
+}

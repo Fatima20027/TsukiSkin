@@ -1,0 +1,114 @@
+
+.summer-collection {
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+  margin-top: 10%;
+  gap: 30px;
+
+}
+
+.banner1 {
+  width: 1000px;
+  height: 400px;
+  display: flex;
+  font-family: "Maven Pro", sans-serif;
+  
+ 
+  
+
+}
+
+.banner2 {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  font-family: "Maven Pro", sans-serif;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 200% 0%;
+  }
+  100% {
+    background-position: -200% 0%;
+  }
+}
+
+.banner1::before, .banner2::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 20%);
+  background-size: 200%;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.banner1:hover::before , .banner2:hover::before{
+  opacity: 1;
+  animation: glowing 1s ease forwards;
+  
+  
+}
+
+.banner1 , .banner2{
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+
+.btn-explore {
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+.btn-explore:hover {
+  color: white;
+  background-color: orangered;
+}
+
+.banner-txt1 {
+  width: 50%;
+  padding-left: 50px;
+  
+  font-family: "Maven Pro", sans-serif;
+}
+
+.banner-txt2 {
+  width: 85%;
+}
+
+.banner1 h4 , .banner2 h4{
+  font-size: 40px;
+  font-family: "Fraunces", serif;
+ 
+  
+  color: orangered;
+}
+
+h5 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  color: white;
+}
+
+.banner2 p {
+  color: white;
+  padding-bottom: 50px;
+  
+}
+

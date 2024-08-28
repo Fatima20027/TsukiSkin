@@ -1,0 +1,151 @@
+footer {
+  width: 100%;
+  background-color: #F3EEDE;
+  padding-top: 60px;
+}
+
+.footer-top{
+  display: flex;
+}
+
+.footer-list {
+  list-style: none ;
+  padding-left: 5%;
+  
+}
+
+
+.footer-list-title {
+  font-weight: 550;
+  font-size: 25px;
+  font-family: "Maven Pro", sans-serif;
+
+}
+
+.footer-link {
+  text-decoration: none;
+  color: rgb(95, 95, 95);
+  font-family: "Maven Pro", sans-serif;
+  font-size: 14px;
+  line-height: 35px;
+
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-list-text {
+  color: rgb(95, 95, 95);
+  font-family: "Maven Pro", sans-serif;
+  font-size: 14px;
+}
+
+.link , .bold {
+  font-weight: 600;
+  color: black;
+}
+
+.footer-list > .emails {
+  font-size: 35px;
+  font-weight: 550;
+
+
+}
+
+
+
+
+.list2 {
+  width: 38%;
+  font-family: "Maven Pro", sans-serif;
+
+}
+
+.newsletter-text {
+ color: rgb(95, 95, 95);
+ font-size: 15px;
+ width: 80%;
+ line-height: 30px;
+
+
+}
+
+
+
+.email-field {
+  width: 200px;
+  padding: 9px 145px 12px 18px;
+  background-color: #FFFFFF;
+  border: 1px solid grey;
+  
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 15px;
+}
+
+.email-field:focus {
+  outline-style: none;
+}
+
+.btn-primary  {
+  padding: 10px 30px;
+  font-size: 16px;
+  color: white;
+  font-weight: 350;
+  background-color: black;
+  border-left: none;
+  border-top: none;
+  margin-left: -5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  
+  
+}
+
+.newsletter-form button {
+  outline-style: none;
+}
+
+
+.wrapper {
+  display: flex;
+}
+
+.social-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  
+}
+
+.social-list i {
+  color: black;
+}
+
+.social-list i:hover {
+  color: hsl(158, 36%, 37%);
+}
+
+.footer-bottom {
+  display: flex;
+  gap: 20%;
+  padding: 30px;
+  justify-content: center;
+}
+
+.footer-bottom > .wrapper {
+  color: gray;
+
+}
+
+.logo {
+  color: #0d2c31;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 30px;
+  font-family: "Maven Pro", sans-serif;
+  
+}
+
+

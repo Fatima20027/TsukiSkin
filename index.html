@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/page-2.css">
+  <link rel="stylesheet" href="styles/page-3.css">
+  <link rel="stylesheet" href="styles/page-4.css">
+  <link rel="stylesheet" href="styles/contact.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <title>Tsuki Skin</title>
+</head>
+<body style="background-image: url('images/mesh-gradient\ \(3\).png'); background-size: cover;">
+    <header class="header-container">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          
+          <li><a href="#blog" class="navbar-link has-after">Blog</a></li>
+          <li><a href="#contact" class="navbar-link has-after">Contact</a></li>
+          <li><a href="shop.html" class="navbar-link has-after">Shop</a></li>
+
+          <div id="logo">TsukiSkin</div>
+          <li class="home"><a href="/index.html" class="navbar-link has-after">Home</a></li>   
+        </ul>
+      </nav>
+      <div class="input-wrapper">
+        <button class="btn-search"><i class='bx bx-search-alt-2' id="search-button"></i></button>
+        <input type="search" name="search" placeholder="Search product.." class="search-field" id="search-input">
+      </div>
+      <div id="search-results"></div>
+      
+      <div class="icons">
+        <i class='bx bxs-user'></i>
+        <i class='bx bxs-shopping-bag-alt'><span>0</span></i>
+      </div>
+      
+      
+    </header>
+    
+    <div class="page-1">
+      <img src="images/woman1.jpg" alt="" srcset="">
+      <div class="h1-h3">
+        
+        <h1>Discover the secret to radiant skin</h1>
+        <h3>Welcome to our online skincare store, where you'll find a wide range of high-quality products to nourish and rejuvenate your skin.</h3>
+        <button class="shop-now"><a href="shop.html">SHOP NOW</a></button>
+      </div>
+    </div>
+
+    <div class="brands">
+      <img src="https://www.madaracosmetics.com/media/wysiwyg/WOW_your_skin/2023/ELLE-x2.png" alt="">
+      <img src="https://www.madaracosmetics.com/media/wysiwyg/WOW_your_skin/2023/Esquire-x2.png?rand=1696933347" alt="">
+      <img src="https://www.madaracosmetics.com/media/wysiwyg/WOW_your_skin/2023/Marie-Claire-x2.png" alt="">
+      <img src="https://www.madaracosmetics.com/media/wysiwyg//WOW_your_skin/2023/Numero-x2.png" alt="">
+      <img src="https://www.madaracosmetics.com/media/wysiwyg/WOW_your_skin/2023/VOGUE-x2.png" alt="">
+    </div>
+
+
+    <div class="sellers">
+      <h4>Our Best Sellers</h4>
+      <a href="shop.html" class="shop-collection">SHOP NOW</a>
+    </div>
+
+    <div class="shopping">
+      <div class="content">    
+        <img src="images/product-03.jpg" alt="">
+        <div class="info">
+          <div class="price">
+            <span>$29.00</span>
+            <div class="card"><i class='bx bxs-shopping-bag-alt'></i></div>
+          </div>
+          <h3><a href="products/eye-cream.html">Coffee Bean Caffeine Eye Cream</a></h3>
+          <div class="card-rating">
+            <div class="rating-wrapper" aria-label="5-star rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating-text">5170 reviews</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">    
+        <img src="images/product-01 (1).jpg" alt="">
+        <div class="info">
+          <div class="price">
+            <span>$29.00</span>
+            <div class="card"><i class='bx bxs-shopping-bag-alt'></i></div>
+          </div>
+          <h3><a href="products/toner.html">Facial Toner</a></h3>
+          <div class="card-rating">
+            <div class="rating-wrapper" aria-label="5-star rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating-text">5170 reviews</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">    
+        <img src="images/product-02.jpg" alt="">
+        <div class="info">
+          <div class="price">
+            <span>$29.00</span>
+            <div class="card"><i class='bx bxs-shopping-bag-alt'></i></div>
+          </div>
+          <h3><a href="products/bio-shroom.html">Bio-shroom Rejuvenating Serum</a></h3>
+          <div class="card-rating">
+            <div class="rating-wrapper" aria-label="5-star rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating-text">5170 reviews</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">    
+        <img src="images/product-11.jpg" alt="">
+        <div class="info">
+          <div class="price">
+            <span>$29.00</span>
+            <div class="card"><i class='bx bxs-shopping-bag-alt'></i></div>
+          </div>
+          <h3><a href="products/cleanser.html">Facial Cleanser</a></h3>
+          <div class="card-rating">
+            <div class="rating-wrapper" aria-label="5-star rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating-text">5170 reviews</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content hidden">    
+        <img src="images/product-05 (1).jpg" alt="">
+        <div class="info">
+          <div class="price">
+            <span>$29.00</span>
+            <div class="card"><i class='bx bxs-shopping-bag-alt'></i></div>
+          </div>
+          <h3><a href="products/hydration.html">Hydration Cream</a></h3>
+          <div class="card-rating">
+            <div class="rating-wrapper" aria-label="5-star rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating-text">5170 reviews</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content hidden">    
+        <img src="images/product-07.jpg" alt="">
+        <div class="info">
+          <div class="price">
+            <span>$29.00</span>
+            <div class="card"><i class='bx bxs-shopping-bag-alt'></i></div>
+          </div>
+          <h3><a href="products/spray.html">Acne Spray</a></h3>
+          <div class="card-rating">
+            <div class="rating-wrapper" aria-label="5-star rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating-text">5170 reviews</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content hidden">    
+        <img src="images/product-09.jpg" alt="">
+        <div class="info">
+          <div class="price">
+            <span>$29.00</span>
+            <div class="card"><i class='bx bxs-shopping-bag-alt'></i></div>
+          </div>
+          <h3><a href="./products/body-serum.html">Body Serum</a></h3>
+          <div class="card-rating">
+            <div class="rating-wrapper" aria-label="5-star rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating-text">5170 reviews</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content hidden">    
+        <img src="images/product-10.jpg" alt="">
+        <div class="info">
+          <div class="price">
+            <span>$29.00</span>
+            <div class="card"><i class='bx bxs-shopping-bag-alt'></i></div>
+          </div>
+          <h3><a href="products/eye-serum.html">Eye Serum</a></h3>
+          <div class="card-rating">
+            <div class="rating-wrapper" aria-label="5-star rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating-text">5170 reviews</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <button id="see-more-btn">See More</button>
+
+
+    <!-- 
+        - #BANNER
+      -->
+
+    <div class="summer-collection">
+    
+      <div class="banner1" style="background-image: url('images/women2.png'); background-size: 100%;">
+        <div class="banner-txt1">
+          <h5>New Collection</h5>
+          <h4>Discover Our Summer Skincare</h4>
+          <a href="shop.html" class="btn-explore">Explore More</a>
+        </div>
+        
+
+      </div>
+
+      <div class="banner2" style="background-image: url('images/summer.jpg'); background-size: 100%;">
+        <ul class="banner-txt2">
+
+          <h4>25% off Everything</h4>
+          <p>Skincare products with an extended range of options for every skin type and tone</p>
+          <a href="shop.html" class="btn-explore">Shop Sale</a>
+        </ul>
+      </div>
+    </div>
+
+
+
+    <div class="sellers">
+      <h4 class="under">Under 25$</h4>
+    </div>
+
+    <div class="shopping">
+      <div class="content">    
+        <img src="images/product-04.jpg" alt="">
+        <div class="info">
+          <div class="price">
+            <span>$20.00</span>
+            <div class="card"><i class='bx bxs-shopping-bag-alt'></i></div>
+          </div>
+          <h3><a href="products/eye-beans.html">Coffee Bean Caffeine Eye Cream</a></h3>
+          <div class="card-rating">
+            <div class="rating-wrapper" aria-label="5-star rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating-text">5170 reviews</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">    
+        <img src="images/curology-wK0h-mlvfuc-unsplash.jpg" alt="">
+        <div class="info">
+          <div class="price">
+            <span>$19.00</span>
+            <div class="card"><i class='bx bxs-shopping-bag-alt'></i></div>
+          </div>
+          <h3><a href="products/facial-toner2.html">Facial Toner</a></h3>
+          <div class="card-rating">
+            <div class="rating-wrapper" aria-label="5-star rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating-text">5170 reviews</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">    
+        <img src="images/product-12.jpg" alt="">
+        <div class="info">
+          <div class="price">
+            <span>$22.00</span>
+            <div class="card"><i class='bx bxs-shopping-bag-alt'></i></div>
+          </div>
+          <h3><a href="products/foot-cream.html">Foot Cream</a></h3>
+          <div class="card-rating">
+            <div class="rating-wrapper" aria-label="5-star rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating-text">5170 reviews</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">    
+        <img src="images/product-11.jpg" alt="">
+        <div class="info">
+          <div class="price">
+            <span>$20.00</span>
+            <div class="card"><i class='bx bxs-shopping-bag-alt'></i></div>
+          </div>
+          <h3><a href="products/cleanser.html">Facial Cleanser</a></h3>
+          <div class="card-rating">
+            <div class="rating-wrapper" aria-label="5-star rating">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <p class="rating-text">5170 reviews</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  
+
+
+      <div class="blog" id="blog">
+        <h4 class="sub-blog">Discover More</h4>
+        <div class="img-blog">
+          <div class="img-blog1">
+            <div class="img-wrapper">
+              <img src="images/store.jpg" alt="">
+            </div>
+            <h5>
+              <a href="#findourstore">Find Our Store</a>
+            </h5>
+          </div>
+          <div class="img-blog2">
+            <div class="img-wrapper">
+              <img src="images/blog-story.jpg" alt="">
+            </div>
+            <h5>
+              <a href="#ourstory">Our Story</a>
+            </h5>
+          </div>
+        </div>  
+      </div>
+      
+
+
+      <footer id="contact">
+        <div class="container">
+
+          <div class="footer-top">
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title">Company</p>
+              </li>
+    
+              <li>
+                <p class="footer-list-text">
+                  Find a location nearest you. See <a href="#" class="link">Our Stores</a>
+                </p>
+              </li>
+    
+              <li>
+                <p class="footer-list-text bold">+391 (0)35 2568 4593</p>
+              </li>
+    
+              <li>
+                <p class="footer-list-text">hello@domain.com</p>
+              </li>
+    
+            </ul>
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title">My Account</p>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Sign in</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">View Cart</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Bundle &amp; Save</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Track My Order</a>
+              </li>
+    
+            </ul>
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title">About</p>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">About Us</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Contact Us</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Shipping FAQ</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Terms &amp; Conditions</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Privacy Policy</a>
+              </li>
+    
+            </ul>
+    
+            <div class="footer-list list2">
+    
+              <p class="newsletter-title emails">Good emails.</p>
+    
+              <p class="newsletter-text">
+                Enter your email below to be the first to know about new collections and product launches.
+              </p>
+    
+              <form action="" class="newsletter-form">
+                <input type="email" name="email_address" placeholder="Enter your email address" required="" class="email-field">
+    
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </form>
+    
+            </div>
+    
+          </div>
+    
+          <div class="footer-bottom">
+    
+            <div class="wrapper">
+              <p class="copyright">
+                © 2024 fatimahailou
+              </p>
+    
+              <ul class="social-list">
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </li>
+    
+              </ul>
+            </div>
+    
+            <a href="#" class="logo">
+              TsukiSkin
+            </a>
+    
+            <img src="images/pay.png" width="313" height="28" alt="available all payment method" class="w-100">
+    
+          </div>
+    
+        </div>
+      </footer>
+
+
+    <script src="js/hidden-btn.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/search-btn.js"></script>
+</body>
+</html>

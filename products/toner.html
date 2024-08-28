@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/header.css">
+  <link rel="stylesheet" href="../styles/contact.css">
+  <link rel="stylesheet" href="../styles/products.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <title>Tsuki Skin</title>
+</head>
+<body style="background-image: url('../images/mesh-gradient\ \(3\).png'); background-size: cover;">
+    <header class="header-container">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li><a href="/shop.html" class="navbar-link has-after">Shop</a></li>
+          <li><a href="#blog" class="navbar-link has-after">Blog</a></li>
+          <li><a href="#contact" class="navbar-link has-after">Contact</a></li>
+          <div id="logo">TsukiSkin</div>
+          <li class="home"><a href="/index.html" class="navbar-link has-after">Home</a></li>   
+        </ul>
+      </nav>
+      <div class="input-wrapper">
+        <button class="btn-search"><i class='bx bx-search-alt-2'></i></button>
+        <input type="search" name="search" placeholder="Search product.." class="search-field">
+      </div>
+      <div class="icons">
+        <i class='bx bxs-user'></i>
+        <i class='bx bxs-shopping-bag-alt'><span>0</span></i>
+      </div>
+    </header>
+
+
+
+    <div class="product-details">
+      <img src="../images/product-01 (1).jpg" alt="">
+      <div class="description">
+        <h1>
+          Facial Toner
+        </h1>
+        <p>
+          Revitalize your skin with our Facial Cleanser. Enriched with Reishi, Chaga, and Cordyceps extracts, this lightweight formula deeply hydrates, smooths fine lines, and enhances radiance. Ideal for all skin types, it restores a youthful glow and defends against daily stressors.
+        </p>
+        <span>
+          $29.00
+        </span>
+        <div class="quantity-spinner">
+          <button class="decrease" onclick="decreaseQuantity()">-</button>
+          <input type="number" id="quantity" value="1" min="1" max="10">
+          <button class="increase" onclick="increaseQuantity()">+</button>
+      </div>
+      <div class="add">
+        <button><a href="">Add to cart</a></button>
+      </div>
+      
+
+      </div>
+    </div>
+    
+    
+      
+
+
+      <footer id="contact">
+        <div class="container">
+
+          <div class="footer-top">
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title">Company</p>
+              </li>
+    
+              <li>
+                <p class="footer-list-text">
+                  Find a location nearest you. See <a href="#" class="link">Our Stores</a>
+                </p>
+              </li>
+    
+              <li>
+                <p class="footer-list-text bold">+391 (0)35 2568 4593</p>
+              </li>
+    
+              <li>
+                <p class="footer-list-text">hello@domain.com</p>
+              </li>
+    
+            </ul>
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title">My Account</p>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Sign in</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">View Cart</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Bundle &amp; Save</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Track My Order</a>
+              </li>
+    
+            </ul>
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title">About</p>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">About Us</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Contact Us</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Shipping FAQ</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Terms &amp; Conditions</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Privacy Policy</a>
+              </li>
+    
+            </ul>
+    
+            <div class="footer-list list2">
+    
+              <p class="newsletter-title emails">Good emails.</p>
+    
+              <p class="newsletter-text">
+                Enter your email below to be the first to know about new collections and product launches.
+              </p>
+    
+              <form action="" class="newsletter-form">
+                <input type="email" name="email_address" placeholder="Enter your email address" required="" class="email-field">
+    
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </form>
+    
+            </div>
+    
+          </div>
+    
+          <div class="footer-bottom">
+    
+            <div class="wrapper">
+              <p class="copyright">
+                © 2024 fatimahailou
+              </p>
+    
+              <ul class="social-list">
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </li>
+    
+              </ul>
+            </div>
+    
+            <a href="#" class="logo">
+              TsukiSkin
+            </a>
+    
+            <img src="../images/pay.png" width="313" height="28" alt="available all payment method" class="w-100">
+    
+          </div>
+    
+        </div>
+      </footer>
+
+
+    <script src="../js/hidden-btn.js"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/quantity-spinner.js"></script>
+</body>
+</html>

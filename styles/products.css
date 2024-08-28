@@ -1,0 +1,108 @@
+.product-details {
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  
+}
+
+.description {
+  width: 40%;
+  background-color: #F3EEDE;
+  padding-left: 30px;
+  border-radius: 10px;
+
+  
+}
+
+.product-details img {
+  width: 25%;
+  height: 25%;
+  border-radius: 10px;
+}
+
+.description span {
+  color: hsl(158, 36%, 37%);
+  font-weight: 600;
+  font-size: 35px;
+  font-family: "Fraunces", serif
+
+}
+
+.description h1 {
+  font-family: "Fraunces", serif;
+  
+}
+
+.description p {
+  font-size: 14px;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  padding-top: 10px;
+  line-height: 23px;
+  font-family: "Montserrat", sans-serif;
+  width: 95%;
+}
+
+.add button{
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 550;
+  color: #edeff0;
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  cursor: pointer;
+}
+
+.add button:hover{
+  background-color: hsl(159, 47%, 15%);
+}
+
+.add a {
+  color: white;
+  text-decoration: none;
+}
+
+.quantity-spinner button {
+  width: 23px;
+  height: 25px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 5px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.quantity-spinner button:hover{
+  background-color: hsl(159, 47%, 15%);
+}
+
+.quantity-spinner input[type="number"] {
+  margin: 0; 
+  padding: 0; 
+  border: none; 
+  outline: none;
+  text-align: center;
+  width: 50px; 
+  font-size: 16px;
+}
+
+.quantity-spinner input[type="number"]::-webkit-outer-spin-button,
+.quantity-spinner input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.quantity-spinner > #quantity {
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+}

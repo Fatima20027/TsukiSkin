@@ -1,0 +1,159 @@
+h4 {
+  font-size: 35px;
+  font-family: "Maven Pro", sans-serif;
+  
+  margin-top: 10%;
+  font-weight: 600;
+}
+
+.shop-collection {
+  font-size: 20px;
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 550;
+  cursor: pointer;
+  color: black;
+  margin-top: 10%;
+
+}
+
+
+.shop-collection:hover {
+  color: hsl(158, 59%, 72%);
+}
+
+.sellers {
+  display: flex;
+  align-items: center;
+  gap: 60%;
+  justify-content: space-around;
+  margin: 0px;
+}
+
+.shopping {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.content {
+  width: calc(22.333% - 20px); /* Adjust width and margin as needed */
+  margin: 10px; /* Space between items */
+  border: 1px solid #F3EEDE;
+  background-color: #F3EEDE;
+  border-radius: 40px;
+  box-sizing: border-box;
+  padding: 10px; /* Include padding and border in element's total width and height */
+}
+
+.content img {
+  width: 100%; /* Make sure the image fits the content box */
+  height: auto;
+  border-radius: 20px;
+
+   /* Maintain the image aspect ratio */
+}
+
+
+
+h3 a{
+  text-decoration: none;
+  color: hsl(212, 21%, 14%);
+  font-size: 18px;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+}
+
+h3 a:hover {
+  text-decoration: underline;
+  color: hsl(158, 59%, 72%);
+}
+
+.price span {
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.price {
+  display: flex; 
+  align-items: center; 
+  gap: 10px; 
+  margin-top: 10px;
+}
+
+.card {
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: hsl(158, 36%, 37%);
+  font-size: 25px;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40%;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: hsl(159, 47%, 15%);
+
+}
+
+.rating-wrapper {
+  display: flex; 
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px; 
+  margin-top: 10px;
+  gap: 40px;
+}
+
+.stars {
+  color: hsl(158, 36%, 37%);
+}
+
+.rating-text {
+  color:  hsl(228, 12%, 48%);
+  font-size: 19px;
+}
+
+
+.hidden {
+  display: none;
+}
+
+
+#see-more-btn {
+  display: block;
+  margin: 20px auto; /* Center the button horizontally */
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Optional: Add hover effect to the button */
+#see-more-btn:hover {
+  background-color: orangered;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .content {
+    width: calc(50% - 20px); /* 2 items per row on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    width: calc(100% - 20px); /* 1 item per row on very small screens */
+  }
+}
